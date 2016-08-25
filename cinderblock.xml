@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="Cinder-CppRESTSDK"
+	id="nl.cowlumbus.cpprestsdk"
+	author="Paul Houx"
+	license="Apache 2.0"
+	summary="Allows you to easily add Microsoft's CppRESTSDK to your project."
+	url="https://github.com/paulhoux/Cinder-CppRESTSDK"
+	git="git://github.com/paulhoux/Cinder-CppRESTSDK.git"
+	library="https://github.com/Microsoft/cpprestsdk"
+	>
+	<supports os="msw" compiler="vc2013"/>
+	<includePath>include</includePath>
+	<header>include/Cinder-CppRESTSDK.h</header>
+	<platform os="msw">
+		<libraryPath>lib/msw/$(PlatformTarget)</libraryPath>
+		<platform config="debug">
+			<staticLibrary>lib/msw/x86/cpprest120d_2_8.lib</staticLibrary>
+		</platform>
+		<platform config="release">
+			<staticLibrary>lib/msw/x86/cpprest120_2_8.lib</staticLibrary>
+		</platform>
+	</platform>
+</block>
+<template>templates/Basic CppRESTSDK/template.xml</template>
+</cinder>
