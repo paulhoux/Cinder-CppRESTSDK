@@ -13,5 +13,5 @@
 #pragma comment(lib, "Crypt32.lib")
 #pragma comment(lib, "Bcrypt.lib")
 #pragma comment(lib, "winhttp.lib")
-#pragma comment(lib, "cpprest120d_2_8.lib")
+#pragma comment(lib, "cpprest120_2_8.lib")
 #endif
