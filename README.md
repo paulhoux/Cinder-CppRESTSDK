@@ -9,3 +9,8 @@ After cloning or checking out the repository, perform the following command from
 ```git lfs pull```
 
 If the LFS extension was installed correctly, it will download the large library files.
+
+##Static libraries
+In case you want to update the libraries and build them yourself, see:
+
+https://katyscode.wordpress.com/2014/04/01/how-to-statically-link-the-c-rest-sdk-casablanca/
