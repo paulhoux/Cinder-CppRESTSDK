@@ -10,6 +10,9 @@ After cloning or checking out the repository, perform the following command from
 
 If the LFS extension was installed correctly, it will download the large library files.
 
+## Also important!!
+All of this is provided "as is" and there will be no support whatsoever. So if you feel a question coming up: don't ask it.
+
 ##Static libraries
 In case you want to update the libraries and build them yourself, see:
 
