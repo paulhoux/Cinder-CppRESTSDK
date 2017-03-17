@@ -13,7 +13,7 @@ If the LFS extension was installed correctly, it will download the large library
 ## Also important!!
 All of this is provided "as is" and there will be no support whatsoever. So if you feel a question coming up: don't ask it.
 
-##Static libraries
+## Static libraries
 In case you want to update the libraries and build them yourself, see:
 
 https://katyscode.wordpress.com/2014/04/01/how-to-statically-link-the-c-rest-sdk-casablanca/
